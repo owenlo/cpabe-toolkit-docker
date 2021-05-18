@@ -15,7 +15,7 @@ The Docker image can then be started by using the following command:
 ```docker run -d cp-abe```
 
 You can then start an interactive shell for the container using the following command:
-```docker -it docker exec -it 49d9d611462e2968b43274f4f30f150a56068568ce96668555d40dff9af2ef0c /bin/bash```
+```docker exec -it 49d9d611462e2968b43274f4f30f150a56068568ce96668555d40dff9af2ef0c /bin/bash```
 
 Remember to replace the container ID (49d9...ef0c) with the output produced by your terminal. The commands ```cpabe-setup```, ```cpabe-keygen```, ```cpabe-enc```, ```cpabe-dec``` should be accessible from the terminal. See [2] for documentation on usage.
 

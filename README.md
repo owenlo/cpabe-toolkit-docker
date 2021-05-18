@@ -10,7 +10,7 @@ Clone or download the Dockerfile. In a terminal, navigate to location of Dockerf
 
 ```docker build -t cp-abe .```
 
-The Docker image can be started by using the following command:
+The Docker image can then be started by using the following command:
 
 ```docker run -d cp-abe```
 

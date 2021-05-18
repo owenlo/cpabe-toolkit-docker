@@ -6,7 +6,7 @@ This Dockerfile allows you to build a container for the CP-ABE Toolkit originall
 
 # Usage
 
-Clone or download Dockerfile. In a terminal, navigate to location of Dockerfile and run the following command:
+Clone or download the Dockerfile. In a terminal, navigate to location of Dockerfile and run the following command:
 
 ```docker build -t cp-abe .```
 
